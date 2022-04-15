@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0536B59F-6465-4E17-BF39-C4F434560F09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alexa.Net.MediatR", "src\Alexa.Net.MediatR\Alexa.Net.MediatR.csproj", "{4A46ACD0-2F8B-4E24-8F45-AC7F6C466A1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{48F01EFD-F719-4D9F-B2EB-59D023BE8163}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alexa.Net.MediatR.Tests", "test\Alexa.Net.MediatR.Tests\Alexa.Net.MediatR.Tests.csproj", "{C970915F-286F-40E7-AF13-A4C0C00DFC43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C75E48F9-08C7-43C8-9360-98675A653C97}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		.github\workflows\build.yaml = .github\workflows\build.yaml
+		.github\workflows\prbuild.yaml = .github\workflows\prbuild.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A46ACD0-2F8B-4E24-8F45-AC7F6C466A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A46ACD0-2F8B-4E24-8F45-AC7F6C466A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A46ACD0-2F8B-4E24-8F45-AC7F6C466A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A46ACD0-2F8B-4E24-8F45-AC7F6C466A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C970915F-286F-40E7-AF13-A4C0C00DFC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C970915F-286F-40E7-AF13-A4C0C00DFC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C970915F-286F-40E7-AF13-A4C0C00DFC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C970915F-286F-40E7-AF13-A4C0C00DFC43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A46ACD0-2F8B-4E24-8F45-AC7F6C466A1B} = {0536B59F-6465-4E17-BF39-C4F434560F09}
+		{C970915F-286F-40E7-AF13-A4C0C00DFC43} = {48F01EFD-F719-4D9F-B2EB-59D023BE8163}
+	EndGlobalSection
+EndGlobal
