@@ -19,6 +19,8 @@ public class RequestInterceptorBehaviorTests
 {
     public class RequestHandler : IRequestHandler<IntentRequest>
     {
+        public Task<bool> CanHandle(IHandlerInput input, CancellationToken cancellationToken = default) => Task.FromResult(true);
+        
         public Task<SkillResponse> Handle(IHandlerInput input, CancellationToken cancellationToken = default)
         {
             return Task.FromResult(ResponseBuilder.Tell(input.RequestEnvelope.Request.Locale));
