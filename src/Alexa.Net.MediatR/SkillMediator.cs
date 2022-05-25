@@ -25,7 +25,6 @@ public class SkillMediator : ISkillMediator
             throw new ArgumentException("Skill ID verification failed!");
 
         var requestType = request.Request.GetType();
-        Console.WriteLine("Request type is {0}", requestType.FullName);
 
         var handler = RequestHandlers.GetOrAdd(requestType,
             static t => (RequestHandlerWrapper)(Activator.CreateInstance(typeof(RequestHandlerWrapperImpl<>)
