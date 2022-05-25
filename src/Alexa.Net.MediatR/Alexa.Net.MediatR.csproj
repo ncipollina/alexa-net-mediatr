@@ -4,14 +4,14 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <VersionPrefix>1.0.3</VersionPrefix>
+    <VersionPrefix>1.0.4</VersionPrefix>
     <Authors>Nick Cipollina</Authors>
     <Description>Simple package with mediator implementation for Alexa Skill development in .Net</Description>
     <PackageProjectUrl>https://github.com/ncipollina/alexa-net-mediatr</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ncipollina/alexa-net-mediatr</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>amazon;alexa;echo;dot;echo dot;skills;lambda;mediator</PackageTags>
-    <PackageReleaseNotes>Added additional helper methods to IResponseBuilder.</PackageReleaseNotes>
+    <PackageReleaseNotes>Removed Console Write statement.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
