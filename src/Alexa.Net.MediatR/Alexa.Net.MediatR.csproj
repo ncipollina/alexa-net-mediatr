@@ -13,10 +13,11 @@
     <PackageTags>amazon;alexa;echo;dot;echo dot;skills;lambda;mediator</PackageTags>
     <PackageReleaseNotes>Removed Console Write statement.</PackageReleaseNotes>
     <LangVersion>10</LangVersion>
+    <Version>1.0.6</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Alexa.NET" Version="1.21.0" />
+    <PackageReference Include="Alexa.NET" Version="1.22.0" />
   </ItemGroup>
 
 </Project>
